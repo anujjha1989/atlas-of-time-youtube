@@ -1,0 +1,345 @@
+{
+ "title": "Panipat 1526",
+ "chapters": [
+  {
+   "id": "open",
+   "title": null,
+   "beats": [
+    {
+     "id": "o1",
+     "v": "map-plain",
+     "t": "One morning in April 1526, two armies faced each other on a dusty plain outside the town of Panipat, about ninety kilometres north of Delhi."
+    },
+    {
+     "id": "o2",
+     "v": "lodi-host",
+     "t": "On one side stood the Sultan of Delhi, Ibrahim Lodi, with an army his enemy believed was a hundred thousand strong, and around a thousand war elephants."
+    },
+    {
+     "id": "o3",
+     "v": "babur-portrait",
+     "t": "On the other side was a prince from Kabul named Babur, with a far smaller force, seven hundred carts, and a handful of guns."
+    },
+    {
+     "id": "o4",
+     "v": "clock-noon",
+     "t": "By midday, one of these two men would be dead. The other would found the Mughal Empire, which would shape India for more than three centuries."
+    },
+    {
+     "id": "o5",
+     "v": "title",
+     "t": "This is the story of the First Battle of Panipat: how it was fought, why it was won, and what it changed."
+    }
+   ]
+  },
+  {
+   "id": "babur",
+   "title": "I · A Prince Without a Kingdom",
+   "beats": [
+    {
+     "id": "b1",
+     "v": "map-ferghana",
+     "t": "Babur was born in 1483 in the Ferghana Valley, in what is now Uzbekistan. Through his father, he descended from Timur, the great conqueror of Central Asia. Through his mother, from Genghis Khan."
+    },
+    {
+     "id": "b2",
+     "v": "card-falcon",
+     "t": "He became king at the age of eleven, when his father died in a strange accident. A pavilion full of pigeons collapsed into a ravine, taking him with it. Babur's own words were: he flew, with his pigeons and their house, and became a falcon."
+    },
+    {
+     "id": "b3",
+     "v": "map-samarkand",
+     "t": "For the next eighteen years, Babur fought for the city every prince of Timur's line dreamed of ruling: Samarkand. He took it three times, and lost it three times."
+    },
+    {
+     "id": "b4",
+     "v": "map-kabul",
+     "t": "Driven out of Central Asia by the Uzbeks, he had already made himself king of Kabul in 1504. From its mountains, he looked south, towards the rich plains of Hindustan."
+    },
+    {
+     "id": "b5",
+     "v": "manuscript",
+     "t": "Babur was also a writer. He kept a memoir in his own Turkic language, recording battles, gardens, fruits, friends, and his own mistakes, with unusual honesty. That memoir, the Baburnama, is the main reason we know so much about this battle, and it tells the story from his side."
+    }
+   ]
+  },
+  {
+   "id": "lodi",
+   "title": "II · A Sultanate Divided",
+   "beats": [
+    {
+     "id": "l1",
+     "v": "map-sultanate",
+     "t": "In Delhi, the throne belonged to the Lodis, an Afghan dynasty that had ruled since 1451."
+    },
+    {
+     "id": "l2",
+     "v": "nobles",
+     "t": "Their state worked almost like a partnership. Powerful Afghan nobles held their own lands and their own troops, and expected the Sultan to treat them as something close to equals."
+    },
+    {
+     "id": "l3",
+     "v": "ibrahim",
+     "t": "Ibrahim Lodi came to the throne in 1517, and set out to change that. He demanded obedience, imprisoned senior nobles, and was accused of putting many others to death. He faced rebellion in the east, where Afghan chiefs eventually crowned a sultan of their own."
+    },
+    {
+     "id": "l4",
+     "v": "map-punjab",
+     "t": "One worried noble was Daulat Khan Lodi, the governor of the Punjab. Summoned to court, he sent his son instead. According to a later Afghan chronicle, the son was shown the bodies of disobedient commanders, hung up as a warning. He fled, and rode to Kabul to ask Babur for help."
+    },
+    {
+     "id": "l5",
+     "v": "card-mangoes",
+     "t": "The same chronicle tells a story. Babur prayed for a sign: a gift of mangoes, a fruit of Hindustan. The next morning, a present arrived from Daulat Khan. Half-ripe mangoes, preserved in honey."
+    },
+    {
+     "id": "l6",
+     "v": "map-allies",
+     "t": "Others wanted Ibrahim gone too. His uncle, Alam Khan, claimed the throne for himself. And Babur later wrote that Rana Sanga, the Rajput king of Mewar, had promised to march on Agra while he marched on Delhi. A promise, Babur complained, that was never kept."
+    }
+   ]
+  },
+  {
+   "id": "march",
+   "title": "III · The Fifth Expedition",
+   "beats": [
+    {
+     "id": "m1",
+     "v": "map-raids",
+     "t": "Babur had already led his army into Hindustan four times, beginning in 1519. At Bajaur, on the first of those campaigns, the defenders had never seen matchlocks before, and at first they made fun of the noise. They stopped when men began to fall."
+    },
+    {
+     "id": "m2",
+     "v": "map-route",
+     "t": "In November 1525, he set out from Kabul for the fifth time. By now, Daulat Khan had changed sides again and turned against him. When the old governor finally surrendered, Babur had him brought in with the two swords he had strapped on to fight him hung around his neck."
+    },
+    {
+     "id": "m3",
+     "v": "map-indus",
+     "t": "In December, the army crossed the Indus. Babur's officers counted everyone who came across: twelve thousand people, soldiers, servants and traders together."
+    },
+    {
+     "id": "m4",
+     "v": "map-humayun",
+     "t": "On the march towards Delhi, Babur's son Humayun, still in his teens, fought his first battle, and scattered the army of one of Ibrahim's commanders, Hamid Khan. Babur called it an excellent omen."
+    },
+    {
+     "id": "m5",
+     "v": "map-converge",
+     "t": "Ibrahim gathered his army and marched north out of Delhi. In mid-April, the two forces met near Panipat."
+    }
+   ]
+  },
+  {
+   "id": "armies",
+   "title": "IV · Two Armies",
+   "beats": [
+    {
+     "id": "a1",
+     "v": "lodi-host",
+     "t": "Ibrahim's army was a classic army of the Delhi Sultanate: masses of cavalry, large numbers of infantry, and war elephants, the heavy weapon of Indian warfare for well over a thousand years. Babur heard it was a hundred thousand strong. Historians today think the real number was smaller, but it was certainly several times the size of his own."
+    },
+    {
+     "id": "a2",
+     "v": "babur-army",
+     "t": "Babur's army was small, but it had three advantages."
+    },
+    {
+     "id": "a3",
+     "v": "archers",
+     "t": "The first was its horsemen: Central Asian mounted archers, trained from childhood to shoot from the saddle, fast and disciplined."
+    },
+    {
+     "id": "a4",
+     "v": "diagram-tulughma",
+     "t": "The second was a tactic from the steppe called the tulughma. Small units on the far ends of the line ride out and around the enemy, and attack from the sides and the rear."
+    },
+    {
+     "id": "a5",
+     "v": "guns",
+     "t": "The third was gunpowder. Babur had matchlockmen and cannon, commanded by two gunners, Ustad Ali Quli and Mustafa. The guns of 1526 were heavy and slow to load. On their own, they could not win a battle. What mattered was how Babur used them."
+    },
+    {
+     "id": "a6",
+     "v": "map-chaldiran",
+     "t": "He arranged them, he wrote, in the Ottoman fashion. Twelve years earlier, at Chaldiran, an Ottoman army had sheltered its guns behind a line of carts and broken the cavalry of Persia. Babur meant to do the same."
+    }
+   ]
+  },
+  {
+   "id": "ground",
+   "title": "V · A Fortress of Wood",
+   "beats": [
+    {
+     "id": "g1",
+     "v": "field-carts",
+     "t": "Babur ordered seven hundred carts to be gathered, and tied together with ropes of rawhide. Between each pair of carts stood five or six mantelets, wooden shields for the matchlockmen. Behind them were his guns."
+    },
+    {
+     "id": "g2",
+     "v": "field-flanks",
+     "t": "His right flank rested on the town of Panipat itself, with its houses and suburbs. On his left, his men dug ditches and piled up felled branches. Every arrow's flight along the line, gaps were left wide enough for a hundred or two hundred horsemen to ride out."
+    },
+    {
+     "id": "g3",
+     "v": "field-wide",
+     "t": "On an open plain, Babur had built a fortress of wood. Now he needed Ibrahim to attack it."
+    },
+    {
+     "id": "g4",
+     "v": "field-raids",
+     "t": "For seven or eight days, the armies faced each other. Small groups of Babur's riders galloped up to the Sultan's camp, shot arrows into it, and rode away. Ibrahim did not move."
+    },
+    {
+     "id": "g5",
+     "v": "field-night",
+     "t": "One night, Babur sent four or five thousand men to raid the camp. In the dark, they lost each other, and by dawn they found themselves facing elephants. They returned without a single man killed, but without achieving anything either."
+    },
+    {
+     "id": "g6",
+     "v": "quote-fear",
+     "t": "Babur admitted that his own men were afraid. In his words: Some in the army were very anxious and full of fear. Those thus anxious and afraid were there with a two or three months' journey between them and their homes. None knew their tongue, nor did they know ours."
+    }
+   ]
+  },
+  {
+   "id": "battle",
+   "title": "VI · Half a Day",
+   "beats": [
+    {
+     "id": "x1",
+     "v": "field-dawn",
+     "t": "On a Friday morning, at first light, scouts rode in with the news. The Sultan's army was advancing in battle order."
+    },
+    {
+     "id": "x2",
+     "v": "field-order",
+     "t": "Babur's men put on their mail and took their places. Humayun commanded the right wing. The carts and guns held the centre. And at the far end of each wing waited the flanking parties."
+    },
+    {
+     "id": "x3",
+     "v": "field-advance",
+     "t": "Ibrahim's army came on fast, straight towards the line, until it saw what was waiting. Then, Babur wrote, it seemed to hesitate, as if asking: to stand, or not? To advance, or not?"
+    },
+    {
+     "id": "x4",
+     "v": "field-crush",
+     "t": "That pause was costly. The front ranks slowed, while the ranks behind kept pressing forward. The great army began to compress into a crowd."
+    },
+    {
+     "id": "x5",
+     "v": "field-sweep",
+     "t": "Babur gave the signal. The flanking parties swept around both ends of the Sultan's army and rained arrows into its rear. The wings advanced. And from the centre, Ustad Ali Quli and Mustafa opened fire."
+    },
+    {
+     "id": "x6",
+     "v": "field-trap",
+     "t": "Ibrahim's men tried one or two charges against the wings, and were driven back by arrows onto their own centre. Babur wrote that they were packed so tightly, they could neither move forward, nor force a way to flee."
+    },
+    {
+     "id": "x7",
+     "v": "clock-noon",
+     "t": "The fighting had begun when the sun was a spear's height above the horizon. By noon, it was over. In Babur's words: in one half-day, that armed mass was laid upon the earth."
+    }
+   ]
+  },
+  {
+   "id": "death",
+   "title": "VII · The Death of a Sultan",
+   "beats": [
+    {
+     "id": "d1",
+     "v": "painting-death",
+     "t": "At first, Babur believed Ibrahim had escaped, and sent riders racing towards Agra to catch him. But in the afternoon, one of his officers found the Sultan's body in a heap of the dead. Five or six thousand of his men had fallen around him."
+    },
+    {
+     "id": "d2",
+     "v": "dead-count",
+     "t": "Babur estimated fifteen or sixteen thousand dead across the field. Later, in Agra, he was told it might have been as many as forty or fifty thousand."
+    },
+    {
+     "id": "d3",
+     "v": "gwalior",
+     "t": "Among the fallen was Raja Vikramajit of Gwalior, a Hindu king who had fought for the Sultan."
+    },
+    {
+     "id": "d4",
+     "v": "tomb",
+     "t": "Ibrahim Lodi was buried at Panipat. A simple tomb in the town still carries his name."
+    }
+   ]
+  },
+  {
+   "id": "after",
+   "title": "VIII · The Spoils of Victory",
+   "beats": [
+    {
+     "id": "f1",
+     "v": "map-delhi-agra",
+     "t": "That same day, Babur sent Humayun riding hard for Agra, to secure the treasury, and another force to Delhi. A week later, the Friday sermon in Delhi was read in Babur's name, the traditional sign of a new ruler."
+    },
+    {
+     "id": "f2",
+     "v": "diamond",
+     "t": "At Agra, the family of the dead Raja of Gwalior gave Humayun a gift of jewels, among them a famous diamond. Experts, Babur wrote, valued it at two and a half days' food for the whole world. Some historians have identified it with the stone later called the Koh-i-Noor. Humayun offered it to his father. Babur gave it back."
+    },
+    {
+     "id": "f3",
+     "v": "treasure",
+     "t": "Then Babur shared out the Lodi treasure. Humayun received seventy lakhs. Every soldier, trader and student who had come with the army received a share. Gifts went to relatives in Samarkand, to holy men, to Mecca and Medina. And one silver coin was sent for every single person in Kabul: man and woman, slave and free, young and old."
+    },
+    {
+     "id": "f4",
+     "v": "heat",
+     "t": "But victory brought new problems. It was the hot season. Villagers fled, and food grew scarce. A burning wind struck men down, and many died. Most of Babur's commanders wanted to go home."
+    },
+    {
+     "id": "f5",
+     "v": "quote-council",
+     "t": "Babur called them together. Was it for us, he asked them, to remain in Kabul, the sport of harsh poverty? Those who wished to leave could go."
+    },
+    {
+     "id": "f6",
+     "v": "quote-wall",
+     "t": "His old companion Khwaja Kalan left. On his way, he had a verse written on the wall of his house in Delhi: If safe and sound I cross the Sind, blacken my face ere I wish for Hind. Babur was not amused, and sent a verse back."
+    },
+    {
+     "id": "f7",
+     "v": "map-threats",
+     "t": "Panipat had won Babur two cities, not an empire. Afghan nobles still held most of the forts around him. And in the west, Rana Sanga of Mewar was gathering an army."
+    }
+   ]
+  },
+  {
+   "id": "legacy",
+   "title": "IX · Why It Mattered",
+   "beats": [
+    {
+     "id": "z1",
+     "v": "khanwa",
+     "t": "In March 1527, Babur met Rana Sanga at Khanwa, west of Agra. Before the battle, he gave up wine, and poured out his stores. Then he fought with the same combination of carts, guns and flanking horsemen, and won. Khanwa, more than Panipat, secured his hold on northern India."
+    },
+    {
+     "id": "z2",
+     "v": "babur-end",
+     "t": "Babur ruled for only four years. He died in Agra in 1530, and was later buried, as he had wished, in a garden in Kabul."
+    },
+    {
+     "id": "z3",
+     "v": "timeline-panipat",
+     "t": "His son Humayun lost the empire to the Afghan Sher Shah Suri, and won it back only in 1555. A year later, the plain of Panipat saw a second great battle, won for Humayun's young son, Akbar. In 1761, it would see a third."
+    },
+    {
+     "id": "z4",
+     "v": "lesson",
+     "t": "Panipat is often remembered as the battle in which guns conquered India. The truth is more interesting. Gunpowder was already known in India, and Babur's guns were few and slow. He won because he combined old and new: a prepared position, firepower in the centre, and the ancient steppe skill of mounted archers sweeping around the flanks. And because his opponent, facing something new, advanced straight into it."
+    },
+    {
+     "id": "z5",
+     "v": "mosque",
+     "t": "Near the battlefield, Babur built a mosque to mark his victory, the Kabuli Bagh. It still stands in Panipat today, a short distance from the tomb of the Sultan he defeated."
+    }
+   ]
+  }
+ ]
+}

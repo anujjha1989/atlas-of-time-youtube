@@ -1,0 +1,50 @@
+{
+ "chapters": {
+  "open": [
+   "Interloper",
+   0
+  ],
+  "babur": [
+   "Long Road Ahead",
+   0
+  ],
+  "lodi": [
+   "Lord of the Land",
+   0
+  ],
+  "march": [
+   "Desert City",
+   0
+  ],
+  "armies": [
+   "Crossing the Chasm",
+   0
+  ],
+  "ground": [
+   "Interloper",
+   118
+  ],
+  "battle": [
+   "Prelude and Action",
+   0
+  ],
+  "death": [
+   "Dark Times",
+   0
+  ],
+  "after": [
+   "Long Road Ahead",
+   40
+  ],
+  "legacy": [
+   "Heroic Age",
+   0
+  ]
+ },
+ "gain": {
+  "Desert City": 0.7,
+  "Crossing the Chasm": 0.8,
+  "Prelude and Action": 0.9,
+  "Heroic Age": 0.95
+ }
+}

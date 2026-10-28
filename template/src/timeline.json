@@ -1,0 +1,1214 @@
+{
+"fps": 30,
+"chapters": [
+{
+"id": "open",
+"title": null,
+"beats": [
+{
+"id": "o1",
+"v": "map-plain",
+"start": 36,
+"sents": [
+[
+36,
+"One morning in April 1526, two armies faced each other on a dusty plain outside the town of Panipat, about ninety kilometres north of Delhi."
+]
+],
+"end": 377
+},
+{
+"id": "o2",
+"v": "lodi-host",
+"start": 400,
+"sents": [
+[
+400,
+"On one side stood the Sultan of Delhi, Ibrahim Lodi, with an army his enemy believed was a hundred thousand strong, and around a thousand war elephants."
+]
+],
+"end": 702
+},
+{
+"id": "o3",
+"v": "babur-portrait",
+"start": 725,
+"sents": [
+[
+725,
+"On the other side was a prince from Kabul named Babur, with a far smaller force, seven hundred carts, and a handful of guns."
+]
+],
+"end": 968
+},
+{
+"id": "o4",
+"v": "clock-noon",
+"start": 990,
+"sents": [
+[
+990,
+"By midday, one of these two men would be dead."
+],
+[
+1076,
+"The other would found the Mughal Empire, which would shape India for more than three centuries."
+]
+],
+"end": 1235
+},
+{
+"id": "o5",
+"v": "title",
+"start": 1257,
+"sents": [
+[
+1257,
+"This is the story of the First Battle of Panipat:"
+],
+[
+1351,
+"how it was fought, why it was won, and what it changed."
+]
+],
+"end": 1447
+}
+]
+},
+{
+"id": "babur",
+"title": "I \u00b7 A Prince Without a Kingdom",
+"beats": [
+{
+"id": "b1",
+"v": "map-ferghana",
+"start": 1596,
+"sents": [
+[
+1596,
+"Babur was born in 1483 in the Ferghana Valley, in what is now Uzbekistan."
+],
+[
+1804,
+"Through his father, he descended from Timur, the great conqueror of Central Asia."
+],
+[
+1956,
+"Through his mother, from Genghis Khan."
+]
+],
+"end": 2032
+},
+{
+"id": "b2",
+"v": "card-falcon",
+"start": 2055,
+"sents": [
+[
+2055,
+"He became king at the age of eleven, when his father died in a strange accident."
+],
+[
+2210,
+"A pavilion full of pigeons collapsed into a ravine, taking him with it."
+],
+[
+2344,
+"Babur's own words were:"
+],
+[
+2399,
+"he flew, with his pigeons and their house, and became a falcon."
+]
+],
+"end": 2517
+},
+{
+"id": "b3",
+"v": "map-samarkand",
+"start": 2540,
+"sents": [
+[
+2540,
+"For the next eighteen years, Babur fought for the city every prince of Timur's line dreamed of ruling:"
+],
+[
+2729,
+"Samarkand."
+],
+[
+2768,
+"He took it three times, and lost it three times."
+]
+],
+"end": 2862
+},
+{
+"id": "b4",
+"v": "map-kabul",
+"start": 2885,
+"sents": [
+[
+2885,
+"Driven out of Central Asia by the Uzbeks, he had already made himself king of Kabul in 1504."
+],
+[
+3110,
+"From its mountains, he looked south, towards the rich plains of Hindustan."
+]
+],
+"end": 3252
+},
+{
+"id": "b5",
+"v": "manuscript",
+"start": 3274,
+"sents": [
+[
+3274,
+"Babur was also a writer."
+],
+[
+3335,
+"He kept a memoir in his own Turkic language, recording battles, gardens, fruits, friends, and his own mistakes, with unusual honesty."
+],
+[
+3608,
+"That memoir, the Baburnama, is the main reason we know so much about this battle, and it tells the story from his side."
+]
+],
+"end": 3835
+}
+],
+"card": [
+1470,
+1596
+]
+},
+{
+"id": "lodi",
+"title": "II \u00b7 A Sultanate Divided",
+"beats": [
+{
+"id": "l1",
+"v": "map-sultanate",
+"start": 3983,
+"sents": [
+[
+3983,
+"In Delhi, the throne belonged to the Lodis, an Afghan dynasty that had ruled since 1451."
+]
+],
+"end": 4220
+},
+{
+"id": "l2",
+"v": "nobles",
+"start": 4243,
+"sents": [
+[
+4243,
+"Their state worked almost like a partnership."
+],
+[
+4326,
+"Powerful Afghan nobles held their own lands and their own troops, and expected the Sultan to treat them as something close to equals."
+]
+],
+"end": 4581
+},
+{
+"id": "l3",
+"v": "ibrahim",
+"start": 4603,
+"sents": [
+[
+4603,
+"Ibrahim Lodi came to the throne in 1517, and set out to change that."
+],
+[
+4792,
+"He demanded obedience, imprisoned senior nobles, and was accused of putting many others to death."
+],
+[
+4985,
+"He faced rebellion in the east, where Afghan chiefs eventually crowned a sultan of their own."
+]
+],
+"end": 5161
+},
+{
+"id": "l4",
+"v": "map-punjab",
+"start": 5184,
+"sents": [
+[
+5184,
+"One worried noble was Daulat Khan Lodi, the governor of the Punjab."
+],
+[
+5323,
+"Summoned to court, he sent his son instead."
+],
+[
+5409,
+"According to a later Afghan chronicle, the son was shown the bodies of disobedient commanders, hung up as a warning."
+],
+[
+5636,
+"He fled, and rode to Kabul to ask Babur for help."
+]
+],
+"end": 5741
+},
+{
+"id": "l5",
+"v": "card-mangoes",
+"start": 5764,
+"sents": [
+[
+5764,
+"The same chronicle tells a story."
+],
+[
+5831,
+"Babur prayed for a sign:"
+],
+[
+5887,
+"a gift of mangoes, a fruit of Hindustan."
+],
+[
+5977,
+"The next morning, a present arrived from Daulat Khan."
+],
+[
+6080,
+"Half-ripe mangoes, preserved in honey."
+]
+],
+"end": 6162
+},
+{
+"id": "l6",
+"v": "map-allies",
+"start": 6184,
+"sents": [
+[
+6184,
+"Others wanted Ibrahim gone too."
+],
+[
+6252,
+"His uncle, Alam Khan, claimed the throne for himself."
+],
+[
+6362,
+"And Babur later wrote that Rana Sanga, the Rajput king of Mewar, had promised to march on Agra while he marched on Delhi."
+],
+[
+6608,
+"A promise, Babur complained, that was never kept."
+]
+],
+"end": 6706
+}
+],
+"card": [
+3857,
+3983
+]
+},
+{
+"id": "march",
+"title": "III \u00b7 The Fifth Expedition",
+"beats": [
+{
+"id": "m1",
+"v": "map-raids",
+"start": 6855,
+"sents": [
+[
+6855,
+"Babur had already led his army into Hindustan four times, beginning in 1519."
+],
+[
+7060,
+"At Bajaur, on the first of those campaigns, the defenders had never seen matchlocks before, and at first they made fun of the noise."
+],
+[
+7306,
+"They stopped when men began to fall."
+]
+],
+"end": 7376
+},
+{
+"id": "m2",
+"v": "map-route",
+"start": 7399,
+"sents": [
+[
+7399,
+"In November 1525, he set out from Kabul for the fifth time."
+],
+[
+7575,
+"By now, Daulat Khan had changed sides again and turned against him."
+],
+[
+7708,
+"When the old governor finally surrendered, Babur had him brought in with the two swords he had strapped on to fight him hung around his neck."
+]
+],
+"end": 7940
+},
+{
+"id": "m3",
+"v": "map-indus",
+"start": 7962,
+"sents": [
+[
+7962,
+"In December, the army crossed the Indus."
+],
+[
+8043,
+"Babur's officers counted everyone who came across:"
+],
+[
+8148,
+"twelve thousand people, soldiers, servants and traders together."
+]
+],
+"end": 8277
+},
+{
+"id": "m4",
+"v": "map-humayun",
+"start": 8300,
+"sents": [
+[
+8300,
+"On the march towards Delhi, Babur's son Humayun, still in his teens, fought his first battle, and scattered the army of one of Ibrahim's commanders, Hamid Khan."
+],
+[
+8612,
+"Babur called it an excellent omen."
+]
+],
+"end": 8683
+},
+{
+"id": "m5",
+"v": "map-converge",
+"start": 8706,
+"sents": [
+[
+8706,
+"Ibrahim gathered his army and marched north out of Delhi."
+],
+[
+8813,
+"In mid-April, the two forces met near Panipat."
+]
+],
+"end": 8913
+}
+],
+"card": [
+6729,
+6855
+]
+},
+{
+"id": "armies",
+"title": "IV \u00b7 Two Armies",
+"beats": [
+{
+"id": "a1",
+"v": "lodi-host",
+"start": 9062,
+"sents": [
+[
+9062,
+"Ibrahim's army was a classic army of the Delhi Sultanate:"
+],
+[
+9189,
+"masses of cavalry, large numbers of infantry, and war elephants, the heavy weapon of Indian warfare for well over a thousand years."
+],
+[
+9465,
+"Babur heard it was a hundred thousand strong."
+],
+[
+9552,
+"Historians today think the real number was smaller, but it was certainly several times the size of his own."
+]
+],
+"end": 9760
+},
+{
+"id": "a2",
+"v": "babur-army",
+"start": 9782,
+"sents": [
+[
+9782,
+"Babur's army was small, but it had three advantages."
+]
+],
+"end": 9888
+},
+{
+"id": "a3",
+"v": "archers",
+"start": 9910,
+"sents": [
+[
+9910,
+"The first was its horsemen:"
+],
+[
+9966,
+"Central Asian mounted archers, trained from childhood to shoot from the saddle, fast and disciplined."
+]
+],
+"end": 10164
+},
+{
+"id": "a4",
+"v": "diagram-tulughma",
+"start": 10186,
+"sents": [
+[
+10186,
+"The second was a tactic from the steppe called the tulughma."
+],
+[
+10293,
+"Small units on the far ends of the line ride out and around the enemy, and attack from the sides and the rear."
+]
+],
+"end": 10495
+},
+{
+"id": "a5",
+"v": "guns",
+"start": 10518,
+"sents": [
+[
+10518,
+"The third was gunpowder."
+],
+[
+10574,
+"Babur had matchlockmen and cannon, commanded by two gunners, Ustad Ali Quli and Mustafa."
+],
+[
+10768,
+"The guns of 1526 were heavy and slow to load."
+],
+[
+10919,
+"On their own, they could not win a battle."
+],
+[
+10995,
+"What mattered was how Babur used them."
+]
+],
+"end": 11068
+},
+{
+"id": "a6",
+"v": "map-chaldiran",
+"start": 11091,
+"sents": [
+[
+11091,
+"He arranged them, he wrote, in the Ottoman fashion."
+],
+[
+11187,
+"Twelve years earlier, at Chaldiran, an Ottoman army had sheltered its guns behind a line of carts and broken the cavalry of Persia."
+],
+[
+11450,
+"Babur meant to do the same."
+]
+],
+"end": 11507
+}
+],
+"card": [
+8936,
+9062
+]
+},
+{
+"id": "ground",
+"title": "V \u00b7 A Fortress of Wood",
+"beats": [
+{
+"id": "g1",
+"v": "field-carts",
+"start": 11655,
+"sents": [
+[
+11655,
+"Babur ordered seven hundred carts to be gathered, and tied together with ropes of rawhide."
+],
+[
+11819,
+"Between each pair of carts stood five or six mantelets, wooden shields for the matchlockmen."
+],
+[
+11990,
+"Behind them were his guns."
+]
+],
+"end": 12048
+},
+{
+"id": "g2",
+"v": "field-flanks",
+"start": 12071,
+"sents": [
+[
+12071,
+"His right flank rested on the town of Panipat itself, with its houses and suburbs."
+],
+[
+12233,
+"On his left, his men dug ditches and piled up felled branches."
+],
+[
+12361,
+"Every arrow's flight along the line, gaps were left wide enough for a hundred or two hundred horsemen to ride out."
+]
+],
+"end": 12560
+},
+{
+"id": "g3",
+"v": "field-wide",
+"start": 12583,
+"sents": [
+[
+12583,
+"On an open plain, Babur had built a fortress of wood."
+],
+[
+12693,
+"Now he needed Ibrahim to attack it."
+]
+],
+"end": 12769
+},
+{
+"id": "g4",
+"v": "field-raids",
+"start": 12792,
+"sents": [
+[
+12792,
+"For seven or eight days, the armies faced each other."
+],
+[
+12889,
+"Small groups of Babur's riders galloped up to the Sultan's camp, shot arrows into it, and rode away."
+],
+[
+13086,
+"Ibrahim did not move."
+]
+],
+"end": 13141
+},
+{
+"id": "g5",
+"v": "field-night",
+"start": 13164,
+"sents": [
+[
+13164,
+"One night, Babur sent four or five thousand men to raid the camp."
+],
+[
+13288,
+"In the dark, they lost each other, and by dawn they found themselves facing elephants."
+],
+[
+13440,
+"They returned without a single man killed, but without achieving anything either."
+]
+],
+"end": 13585
+},
+{
+"id": "g6",
+"v": "quote-fear",
+"start": 13608,
+"sents": [
+[
+13608,
+"Babur admitted that his own men were afraid."
+],
+[
+13696,
+"In his words:"
+],
+[
+13735,
+"Some in the army were very anxious and full of fear."
+],
+[
+13835,
+"Those thus anxious and afraid were there with a two or three months' journey between them and their homes."
+],
+[
+14014,
+"None knew their tongue, nor did they know ours."
+]
+],
+"end": 14099
+}
+],
+"card": [
+11529,
+11655
+]
+},
+{
+"id": "battle",
+"title": "VI \u00b7 Half a Day",
+"beats": [
+{
+"id": "x1",
+"v": "field-dawn",
+"start": 14247,
+"sents": [
+[
+14247,
+"On a Friday morning, at first light, scouts rode in with the news."
+],
+[
+14370,
+"The Sultan's army was advancing in battle order."
+]
+],
+"end": 14474
+},
+{
+"id": "x2",
+"v": "field-order",
+"start": 14497,
+"sents": [
+[
+14497,
+"Babur's men put on their mail and took their places."
+],
+[
+14598,
+"Humayun commanded the right wing."
+],
+[
+14665,
+"The carts and guns held the centre."
+],
+[
+14736,
+"And at the far end of each wing waited the flanking parties."
+]
+],
+"end": 14838
+},
+{
+"id": "x3",
+"v": "field-advance",
+"start": 14861,
+"sents": [
+[
+14861,
+"Ibrahim's army came on fast, straight towards the line, until it saw what was waiting."
+],
+[
+15028,
+"Then, Babur wrote, it seemed to hesitate, as if asking:"
+],
+[
+15139,
+"to stand, or not?"
+],
+[
+15189,
+"To advance, or not?"
+]
+],
+"end": 15240
+},
+{
+"id": "x4",
+"v": "field-crush",
+"start": 15263,
+"sents": [
+[
+15263,
+"That pause was costly."
+],
+[
+15316,
+"The front ranks slowed, while the ranks behind kept pressing forward."
+],
+[
+15442,
+"The great army began to compress into a crowd."
+]
+],
+"end": 15537
+},
+{
+"id": "x5",
+"v": "field-sweep",
+"start": 15560,
+"sents": [
+[
+15560,
+"Babur gave the signal."
+],
+[
+15614,
+"The flanking parties swept around both ends of the Sultan's army and rained arrows into its rear."
+],
+[
+15801,
+"The wings advanced."
+],
+[
+15851,
+"And from the centre, Ustad Ali Quli and Mustafa opened fire."
+]
+],
+"end": 15983
+},
+{
+"id": "x6",
+"v": "field-trap",
+"start": 16006,
+"sents": [
+[
+16006,
+"Ibrahim's men tried one or two charges against the wings, and were driven back by arrows onto their own centre."
+],
+[
+16221,
+"Babur wrote that they were packed so tightly, they could neither move forward, nor force a way to flee."
+]
+],
+"end": 16402
+},
+{
+"id": "x7",
+"v": "clock-noon",
+"start": 16424,
+"sents": [
+[
+16424,
+"The fighting had begun when the sun was a spear's height above the horizon."
+],
+[
+16569,
+"By noon, it was over."
+],
+[
+16624,
+"In Babur's words:"
+],
+[
+16673,
+"in one half-day, that armed mass was laid upon the earth."
+]
+],
+"end": 16787
+}
+],
+"card": [
+14121,
+14247
+]
+},
+{
+"id": "death",
+"title": "VII \u00b7 The Death of a Sultan",
+"beats": [
+{
+"id": "d1",
+"v": "painting-death",
+"start": 16935,
+"sents": [
+[
+16935,
+"At first, Babur believed Ibrahim had escaped, and sent riders racing towards Agra to catch him."
+],
+[
+17125,
+"But in the afternoon, one of his officers found the Sultan's body in a heap of the dead."
+],
+[
+17283,
+"Five or six thousand of his men had fallen around him."
+]
+],
+"end": 17393
+},
+{
+"id": "d2",
+"v": "dead-count",
+"start": 17415,
+"sents": [
+[
+17415,
+"Babur estimated fifteen or sixteen thousand dead across the field."
+],
+[
+17558,
+"Later, in Agra, he was told it might have been as many as forty or fifty thousand."
+]
+],
+"end": 17714
+},
+{
+"id": "d3",
+"v": "gwalior",
+"start": 17737,
+"sents": [
+[
+17737,
+"Among the fallen was Raja Vikramajit of Gwalior, a Hindu king who had fought for the Sultan."
+]
+],
+"end": 17919
+},
+{
+"id": "d4",
+"v": "tomb",
+"start": 17942,
+"sents": [
+[
+17942,
+"Ibrahim Lodi was buried at Panipat."
+],
+[
+18025,
+"A simple tomb in the town still carries his name."
+]
+],
+"end": 18119
+}
+],
+"card": [
+16809,
+16935
+]
+},
+{
+"id": "after",
+"title": "VIII \u00b7 The Spoils of Victory",
+"beats": [
+{
+"id": "f1",
+"v": "map-delhi-agra",
+"start": 18268,
+"sents": [
+[
+18268,
+"That same day, Babur sent Humayun riding hard for Agra, to secure the treasury, and another force to Delhi."
+],
+[
+18476,
+"A week later, the Friday sermon in Delhi was read in Babur's name, the traditional sign of a new ruler."
+]
+],
+"end": 18679
+},
+{
+"id": "f2",
+"v": "diamond",
+"start": 18701,
+"sents": [
+[
+18701,
+"At Agra, the family of the dead Raja of Gwalior gave Humayun a gift of jewels, among them a famous diamond."
+],
+[
+18932,
+"Experts, Babur wrote, valued it at two and a half days' food for the whole world."
+],
+[
+19078,
+"Some historians have identified it with the stone later called the Koh-i-Noor."
+],
+[
+19218,
+"Humayun offered it to his father."
+],
+[
+19285,
+"Babur gave it back."
+]
+],
+"end": 19336
+},
+{
+"id": "f3",
+"v": "treasure",
+"start": 19358,
+"sents": [
+[
+19358,
+"Then Babur shared out the Lodi treasure."
+],
+[
+19433,
+"Humayun received seventy lakhs."
+],
+[
+19499,
+"Every soldier, trader and student who had come with the army received a share."
+],
+[
+19648,
+"Gifts went to relatives in Samarkand, to holy men, to Mecca and Medina."
+],
+[
+19798,
+"And one silver coin was sent for every single person in Kabul:"
+],
+[
+19928,
+"man and woman, slave and free, young and old."
+]
+],
+"end": 20024
+},
+{
+"id": "f4",
+"v": "heat",
+"start": 20047,
+"sents": [
+[
+20047,
+"But victory brought new problems."
+],
+[
+20116,
+"It was the hot season."
+],
+[
+20167,
+"Villagers fled, and food grew scarce."
+],
+[
+20250,
+"A burning wind struck men down, and many died."
+],
+[
+20344,
+"Most of Babur's commanders wanted to go home."
+]
+],
+"end": 20429
+},
+{
+"id": "f5",
+"v": "quote-council",
+"start": 20452,
+"sents": [
+[
+20452,
+"Babur called them together."
+],
+[
+20508,
+"Was it for us, he asked them, to remain in Kabul, the sport of harsh poverty?"
+],
+[
+20656,
+"Those who wished to leave could go."
+]
+],
+"end": 20719
+},
+{
+"id": "f6",
+"v": "quote-wall",
+"start": 20742,
+"sents": [
+[
+20742,
+"His old companion Khwaja Kalan left."
+],
+[
+20830,
+"On his way, he had a verse written on the wall of his house in Delhi:"
+],
+[
+20954,
+"If safe and sound I cross the Sind, blacken my face ere I wish for Hind."
+],
+[
+21099,
+"Babur was not amused, and sent a verse back."
+]
+],
+"end": 21189
+},
+{
+"id": "f7",
+"v": "map-threats",
+"start": 21211,
+"sents": [
+[
+21211,
+"Panipat had won Babur two cities, not an empire."
+],
+[
+21320,
+"Afghan nobles still held most of the forts around him."
+],
+[
+21429,
+"And in the west, Rana Sanga of Mewar was gathering an army."
+]
+],
+"end": 21548
+}
+],
+"card": [
+18142,
+18268
+]
+},
+{
+"id": "legacy",
+"title": "IX \u00b7 Why It Mattered",
+"beats": [
+{
+"id": "z1",
+"v": "khanwa",
+"start": 21697,
+"sents": [
+[
+21697,
+"In March 1527, Babur met Rana Sanga at Khanwa, west of Agra."
+],
+[
+21894,
+"Before the battle, he gave up wine, and poured out his stores."
+],
+[
+22007,
+"Then he fought with the same combination of carts, guns and flanking horsemen, and won."
+],
+[
+22178,
+"Khanwa, more than Panipat, secured his hold on northern India."
+]
+],
+"end": 22302
+},
+{
+"id": "z2",
+"v": "babur-end",
+"start": 22325,
+"sents": [
+[
+22325,
+"Babur ruled for only four years."
+],
+[
+22398,
+"He died in Agra in 1530, and was later buried, as he had wished, in a garden in Kabul."
+]
+],
+"end": 22621
+},
+{
+"id": "z3",
+"v": "timeline-panipat",
+"start": 22644,
+"sents": [
+[
+22644,
+"His son Humayun lost the empire to the Afghan Sher Shah Suri, and won it back only in 1555."
+],
+[
+22892,
+"A year later, the plain of Panipat saw a second great battle, won for Humayun's young son, Akbar."
+],
+[
+23082,
+"In 1761, it would see a third."
+]
+],
+"end": 23201
+},
+{
+"id": "z4",
+"v": "lesson",
+"start": 23223,
+"sents": [
+[
+23223,
+"Panipat is often remembered as the battle in which guns conquered India."
+],
+[
+23365,
+"The truth is more interesting."
+],
+[
+23429,
+"Gunpowder was already known in India, and Babur's guns were few and slow."
+],
+[
+23571,
+"He won because he combined old and new:"
+],
+[
+23656,
+"a prepared position, firepower in the centre, and the ancient steppe skill of mounted archers sweeping around the flanks."
+],
+[
+23879,
+"And because his opponent, facing something new, advanced straight into it."
+]
+],
+"end": 24012
+},
+{
+"id": "z5",
+"v": "mosque",
+"start": 24034,
+"sents": [
+[
+24034,
+"Near the battlefield, Babur built a mosque to mark his victory, the Kabuli Bagh."
+],
+[
+24190,
+"It still stands in Panipat today, a short distance from the tomb of the Sultan he defeated."
+]
+],
+"end": 24359
+}
+],
+"card": [
+21571,
+21697
+]
+}
+],
+"total": 24622
+}

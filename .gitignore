@@ -1,0 +1,10 @@
+node_modules/
+out/
+template/public/ph/
+template/public/sk/
+template/public/*.jpg
+template/public/music/
+*.wav
+*.mp4
+*.m4a
+.DS_Store
