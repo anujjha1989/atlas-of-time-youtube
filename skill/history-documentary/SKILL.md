@@ -30,6 +30,7 @@ mistakes already made once:
 | 10. Troubleshooting | `references/10-troubleshooting.md` |
 | 11. Channel setup and browser upload (field by field) | `references/11-channel-setup-and-browser-upload.md` |
 | 12. Originality and monetisation (inauthentic-content policy) | `references/12-originality-and-monetisation.md` |
+| 13. Storytelling and visual grammar (lessons from Epic History TV and Kings and Generals) | `references/13-storytelling-and-visual-grammar.md` |
 
 ## Principles (these decide most judgement calls)
 
@@ -80,7 +81,7 @@ Track these as tasks; each has a definition of done.
    ~145 wpm), audience language(s). Done when the one-sentence question is written down.
 2. **Research.** Primary source located and read; 3–6 secondary sources; a fact table (claim, source, page or
    URL, confidence); disputed numbers listed with who says what. Done when every planned beat has sources.
-3. **Script.** `script.json` in 8–10 chapters plus a cold open (first chapter with empty title), 40–55 beats,
+3. **Script.** Read references 01 and 13. `script.json` in 8–11 chapters plus a battle-morning cold open (date line, stakes, title), a short sources chapter, an armies chapter, the battle in the present tense with a `clock` on each beat, and a cliffhanger into the next film; (first chapter with empty title), 40–55 beats,
    each beat 1–4 sentences with a visual id. Read aloud once for rhythm. Done when a fact-check pass against the
    table finds nothing unsourced.
 4. **Visual plan.** For each beat, its `v` and what is on screen. Reuse scene types; budget 3D for the battle

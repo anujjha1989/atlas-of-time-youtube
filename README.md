@@ -15,9 +15,9 @@ with free tools and openly licensed assets.
 ## Use it with Claude
 
 The skill lives in [`skill/history-documentary/`](skill/history-documentary/SKILL.md): a step-by-step workflow
-plus twelve reference chapters (research, narration, visuals, 3D battles, licensing, rendering, subtitles,
+plus thirteen reference chapters (research, narration, visuals, 3D battles, licensing, rendering, subtitles,
 thumbnails, YouTube SEO, troubleshooting, and a field-by-field guide to setting up the channel and uploading
-through the browser, and an originality and monetisation checklist).
+through the browser, an originality and monetisation checklist, and storytelling lessons from the best battle channels).
 
 - **Claude Code**: copy the folder to `~/.claude/skills/history-documentary/` (or `.claude/skills/` in a project),
   then ask: *"Make a YouTube documentary about the Battle of Plassey using the history-documentary skill."*
@@ -58,7 +58,7 @@ python3 tools/branding/render.py   # -> build/branding/*.png|jpg
 ## Repository layout
 
 ```
-skill/history-documentary/      the Claude skill: SKILL.md + references/01..12
+skill/history-documentary/      the Claude skill: SKILL.md + references/01..13
 template/                       Remotion 4 project (React 19, three.js, @react-three/fiber)
   src/Video.tsx                 shots from timeline.json, crossfades, album-page frame
   src/scenes/Visuals.tsx        beat → visual switch, incl. battleShot() camera and state per beat
