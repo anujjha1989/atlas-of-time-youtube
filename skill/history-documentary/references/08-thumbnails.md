@@ -14,6 +14,19 @@
 - **Honest**: the hook must be true and explained in the video and description (the 12,000 and 100,000 are
   Babur's figures, and the description says so).
 
+## 8.1a The style the owner prefers (October 2026)
+
+Painted, poster-like thumbnails beat 3D-render thumbnails for this channel ("GUNS vs ELEPHANTS", "THE LAST
+CHARGE"; reference 14.5):
+- One heroic subject, close and large, on the right two thirds: an elephant with howdah, a rider mid-charge.
+- Warm golden light and dust on the subject's side; a dark stormy blue on the text side.
+- Two or three huge distressed ivory-and-gold serif words, left-aligned, plus a small framed gold plate with
+  place and year above them ("PANIPAT 1526").
+- Foreground action (cannon smoke, carts), the hero in the middle, an army or skyline behind.
+- The hero art was an AI-generated painting. If your tools can't generate images, either get the art from an
+  agent that can and build the layout around it, or apply this layout, type and grade to a close, low 3D render.
+  Label generated art as a reconstruction in the description.
+
 ## 8.2 Making them
 
 `template/src/scenes/Thumb.tsx` defines three variants (camera, battle state, words, side) rendered from the

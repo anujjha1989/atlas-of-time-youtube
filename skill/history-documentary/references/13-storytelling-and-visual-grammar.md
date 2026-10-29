@@ -21,9 +21,10 @@ never copy their art, maps or words.
    it works and its weakness. This is where unit cards and 3D unit spotlights belong.
 5. **The ground before the fight**: what the terrain does (reverse slope, farms as "breakwaters", a lake for
    water, a low hill), shown on the map with a terrain profile.
-6. **The battle against a clock.** Times in the narration ("Around 11.30am…", "At 4pm…") and in the corner of
-   every battle map. When the sources give no hours, use what they do give (Babur: "one watch" after sunrise,
-   "between the first and second prayers").
+6. **The battle against a clock.** Waterloo's sources give hours, so it says "Around 11.30am…" and stamps the time
+   on every map. Use exact times only when a source gives them; otherwise show broad phases (*Dawn, Morning,
+   Midday, Afternoon, Evening*) built from what the sources do say (Babur: "one watch" after sunrise, "between the
+   first and second prayers"). Never invent clock times (reference 14.2).
 7. **Cross-cut between sectors** of the field, and back ("Meanwhile, at Hougoumont…").
 8. **Aftermath**: the losses with attributed figures (or "no reliable figure"), an eyewitness description of the
    field the next day, what the victor did next.
@@ -52,7 +53,7 @@ never copy their art, maps or words.
 | Element | How they do it | Our build |
 |---|---|---|
 | Tactical map | ~70% of battle screen time; textured terrain; unit blocks with flags/emblems; formations drawn as lines of small blocks | `map/Battle` plate on real terrain; unit blocks with each side's emblem; formation lines |
-| Clock | Time in the top right of every battle map, advancing | `Clock` overlay fed by the beat's `clock` field in `script.json` |
+| Clock | Time in the top right of every battle map, advancing | `Clock` overlay fed by the beat's `clock` field: an hour only if a source gives it, else a phase (Morning, Midday…) |
 | Movement | Thick yellow arrows that grow; pulsing highlight circles on the unit being discussed | Animated arrow and ring components, driven per beat |
 | People | Cut-out portrait with a nameplate (name + role) pops onto the map when first named | `PortraitCard` (painting crop + plate) over maps |
 | Army composition | A legend panel listing unit types; unit-name banners over 3D footage | `ArmyPanel` and `UnitBanner` over 3D unit spotlights |
@@ -68,7 +69,7 @@ banner or a map cut right after it.
 
 ## 13.4 Script fields this adds
 
-- `clock` on a beat (e.g. `"clock": "about 9:00"`, `"noon"`): shown top right on battle maps.
+- `clock` on a beat (e.g. `"clock": "Morning"`, `"Midday"`): shown top right on battle maps. Exact hours only from a source.
 - Visual id prefixes that name the grammar: `map-…` (strategic), `map-b-…` (tactical battle map), `k3d-…` (3D),
   `portrait-…`, `panel-…` (army composition), `unit-…` (unit spotlight), `card-…` (text card), `folio-…`
   (painting).

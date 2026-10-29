@@ -31,6 +31,7 @@ mistakes already made once:
 | 11. Channel setup and browser upload (field by field) | `references/11-channel-setup-and-browser-upload.md` |
 | 12. Originality and monetisation (inauthentic-content policy) | `references/12-originality-and-monetisation.md` |
 | 13. Storytelling and visual grammar (lessons from Epic History TV and Kings and Generals) | `references/13-storytelling-and-visual-grammar.md` |
+| 14. Production lessons from the second film (preview first, broad times, map layers, sound, thumbnails) | `references/14-production-lessons-1761.md` |
 
 ## Principles (these decide most judgement calls)
 
@@ -59,6 +60,11 @@ mistakes already made once:
    (reference 12) excludes mass-produced channels from monetisation. Reuse models and systems, not shots:
    new 3D set pieces, maps and paintings per battle; varied thumbnails; quotes under ~15% of the narration;
    one consistent narrator (Kokoro `af_heart`), never rotated; 2–3 week cadence.
+
+9. **Preview before volume, and verify honestly.** Build and approve the 60–90 s opening and one complete battle
+   sequence before the rest (reference 14). Never invent clock times, borders or equipment. Check each scene state
+   against its narration, inspect start/middle/end stills, verify every render chunk before joining, measure the
+   encoded audio, and say plainly which visual or listening checks were not done.
 
 ## The pipeline at a glance
 
