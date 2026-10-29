@@ -29,6 +29,7 @@ mistakes already made once:
 | 9. YouTube SEO, channel and upload | `references/09-youtube-seo-and-upload.md` |
 | 10. Troubleshooting | `references/10-troubleshooting.md` |
 | 11. Channel setup and browser upload (field by field) | `references/11-channel-setup-and-browser-upload.md` |
+| 12. Originality and monetisation (inauthentic-content policy) | `references/12-originality-and-monetisation.md` |
 
 ## Principles (these decide most judgement calls)
 
@@ -52,6 +53,11 @@ mistakes already made once:
    and downloads account-gated models. You drive the upload in their signed-in browser, but **they pick each
    local file** in the macOS file picker (the browser can't attach files). Upload as **Private** first; going
    public, posting a comment as the channel and changing the handle each need an explicit go-ahead.
+
+8. **Every film must look made by hand, not from a template.** YouTube's inauthentic-content policy
+   (reference 12) excludes mass-produced channels from monetisation. Reuse models and systems, not shots:
+   new 3D set pieces, maps and paintings per battle; varied thumbnails; quotes under ~15% of the narration;
+   one consistent narrator (Kokoro `af_heart`), never rotated; 2–3 week cadence.
 
 ## The pipeline at a glance
 
@@ -97,7 +103,8 @@ Track these as tasks; each has a definition of done.
 13. **Channel.** Profile picture, banner (generic to the channel, not one film), watermark (Entire video),
     description, keywords, country and handle are set (`tools/branding/`, reference 11). Done when Customisation
     shows nothing pending to Publish.
-14. **Upload.** The person has created and verified the channel. Start the MP4 upload first and fill every
+14. **Upload.** Originality check first (reference 12.3: at least half the visuals new to this film, distinct
+    thumbnail, quotes a minority). The person has created and verified the channel. Start the MP4 upload first and fill every
     field while it uploads (reference 11.5): title and description set with `insertText` and checked for intact
     chapters, playlist, not for kids, tags committed as chips, AI use Yes, language, Education, thumbnail, EN
     subtitles, end screen, Private. Add the second-language subtitles on the translations page. Done when
