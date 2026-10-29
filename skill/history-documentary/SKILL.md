@@ -45,6 +45,8 @@ mistakes already made once:
    description, never as on-screen labels.
 4. **One narrator voice throughout.** Kokoro `af_heart` at speed 0.95, quotes included. It is free, local and
    consistent. Fix every non-English name with the IPA lexicon before recording; viewers notice "BAB-er".
+   Years are always spoken as people say them, "fifteen twenty-seven", never "one thousand five hundred…"
+   (`tools/years.py`, applied automatically by narrate.py; see 2.2a).
 5. **Real where it can be, honest where it can't.** Use real 3D models, real sky lighting and photographed
    ground, and check period accuracy (no 18th-century naval cannon at a 1526 battle; Central Asian cavalry in
    coats and helmets, not bare-chested). Disclose AI narration and realistic reconstruction on upload.

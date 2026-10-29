@@ -22,6 +22,7 @@ Khwaja...) are often wrong. The lexicon maps a word to the exact IPA to speak in
 phonemised normally. Run with --check to print the default vs. lexicon phonemes without recording.
 """
 import argparse, json, re, sys
+from years import spoken_years  # 1527 -> 'fifteen twenty-seven'
 from pathlib import Path
 
 import soundfile as sf
@@ -69,7 +70,7 @@ for ch in doc['chapters']:
         timings[b['id']] = []
         for i, s in enumerate(sents):
             f = out / f"{b['id']}_{i}.wav"
-            ph = to_phonemes(s.replace('’', "'"))
+            ph = to_phonemes(spoken_years(s.replace('’', "'")))
             if not f.exists():
                 audio, sr = k.create(ph, voice=a.voice, speed=a.speed, lang=a.lang, is_phonemes=True)
                 sf.write(f, audio, sr)

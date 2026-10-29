@@ -52,7 +52,8 @@ has a "Notes on the numbers" section.
 - Quote the primary source sparingly and set it up: "In Babur's words:" then the quote as its own sentence.
   Use the translation's wording exactly; trim only at sentence boundaries.
 - Numbers: write them as words in the script ("twelve thousand") so the TTS reads them naturally;
-  years as digits ("1526") are read correctly.
+  years as digits ("1526"): `tools/years.py` makes the narrator say "fifteen twenty-six" (see 2.2a).
+  Never write a count as a bare four-digit figure, or it will be read as a year.
 - Avoid parentheses, abbreviations and symbols. "Koh-i-Noor" is fine with a lexicon entry.
 - A colon ends a sentence for timing (narrate.py splits on `. ? ! :`), which makes a natural pause before a list
   or quote. Use it deliberately.

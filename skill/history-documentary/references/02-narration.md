@@ -43,6 +43,29 @@ The full 52-entry lexicon is `examples/panipat-1526/lexicon.json`. Process:
 6. Record, then **listen to every sentence that contains a lexicon word**
    (`grep -n "Babur\|Humayun" rec/phonemes.log`).
 
+## 2.2a Years: always "fifteen twenty-seven", never "one thousand five hundred…"
+
+Kokoro reads a bare 1527 as "one thousand five hundred twenty-seven". Nobody says a year that way,
+and the channel owner flagged it on the first film. `tools/narrate.py` now passes every sentence
+through `tools/years.py` before phonemising, so any four-digit number from 1000 to 2099 is spoken as a year:
+
+| Written | Spoken |
+|---|---|
+| 1527 | fifteen twenty-seven |
+| 1500 | fifteen hundred |
+| 1505 | fifteen oh five |
+| 1520s | fifteen twenties |
+| 2008 / 2015 | two thousand and eight / twenty fifteen |
+
+Consequences for the script:
+- Write years as digits (the subtitles show them as digits too).
+- Write counts in words ("fifteen hundred men", "two hundred and one thousand horsemen"); a bare
+  "1500 men" would be read as the year "fifteen hundred", and "1250 men" as "twelve fifty men".
+  Figures with a comma ("1,500") are left alone and read as numbers.
+- No lexicon entries for years are needed any more.
+- Check after recording: `grep -n "θˈaʊzənd" rec/phonemes.log` should list only genuine counts.
+  Run `python3 tools/years.py` to see the conversion examples.
+
 ## 2.3 Recording
 
 ```bash
