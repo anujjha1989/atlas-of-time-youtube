@@ -28,11 +28,25 @@ def ts(s):
     return f"{h:02d}:{m:02d}:{s % 60:06.3f}".replace('.', ',')
 
 def chunks(text, n=2 * 40):
+    """Split a sentence into the fewest cues of at most n characters, balanced in length (no one-word orphans),
+    breaking after a comma, semicolon or dash when one falls near the balance point."""
+    k = max(1, -(-len(text) // n)); target = len(text) / k
     out, cur = [], ''
     for w in text.split():
-        if cur and len(cur) + 1 + len(w) > n: out.append(cur); cur = w
-        else: cur = f"{cur} {w}".strip()
+        cand = f"{cur} {w}".strip()
+        room = len(out) < k - 1
+        if cur and (len(cand) > n or (room and len(cur) >= target - len(w) / 2) or (room and cur[-1] in ',;—' and len(cur) >= 0.6 * target)):
+            out.append(cur); cur = w
+        else: cur = cand
     return out + ([cur] if cur else [])
+
+def wrap2(p, width):
+    """Two balanced lines rather than a full line and an orphan: the narrowest width that still fits in two lines."""
+    if len(p) <= width: return p
+    for w in range(-(-len(p) // 2), width + 1):
+        lines = textwrap.wrap(p, w)
+        if len(lines) <= 2: return '\n'.join(lines)
+    return '\n'.join(textwrap.wrap(p, width))
 
 cues, chap, k = [], [], 0
 for c in tl['chapters']:
@@ -46,7 +60,7 @@ for c in tl['chapters']:
             parts = chunks(text); total = sum(len(p) for p in parts)
             for p in parts:
                 d = dur * len(p) / total
-                cues.append((t, t + d - 0.05, '\n'.join(textwrap.wrap(p, a.width)))); t += d
+                cues.append((t, t + d - 0.05, wrap2(p, a.width))); t += d
 if tr: assert k == len(tr), f'translation has {len(tr)} sentences, script has {k}'
 with open(a.out, 'w') as f:
     for n, (s0, s1, t) in enumerate(cues, 1): f.write(f"{n}\n{ts(s0)} --> {ts(s1)}\n{t}\n\n")

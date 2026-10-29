@@ -32,6 +32,7 @@ mistakes already made once:
 | 12. Originality and monetisation (inauthentic-content policy) | `references/12-originality-and-monetisation.md` |
 | 13. Storytelling and visual grammar (lessons from Epic History TV and Kings and Generals) | `references/13-storytelling-and-visual-grammar.md` |
 | 14. Production lessons from the second film (preview first, broad times, map layers, sound, thumbnails) | `references/14-production-lessons-1761.md` |
+| 15. Production lessons from Khanwa (one battle state in 2D and 3D, chunked renders, synced sound, card types) | `references/15-production-lessons-khanwa.md` |
 
 ## Principles (these decide most judgement calls)
 

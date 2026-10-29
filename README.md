@@ -15,7 +15,7 @@ with free tools and openly licensed assets.
 ## Use it with Claude
 
 The skill lives in [`skill/history-documentary/`](skill/history-documentary/SKILL.md): a step-by-step workflow
-plus fourteen reference chapters (research, narration, visuals, 3D battles, licensing, rendering, subtitles,
+plus fifteen reference chapters (research, narration, visuals, 3D battles, licensing, rendering, subtitles,
 thumbnails, YouTube SEO, troubleshooting, and a field-by-field guide to setting up the channel and uploading
 through the browser, an originality and monetisation checklist, storytelling lessons from the best battle channels, and production lessons from the second film).
 
