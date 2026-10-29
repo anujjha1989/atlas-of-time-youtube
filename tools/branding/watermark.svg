@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+<defs><clipPath id="gc"><circle cx="400" cy="400" r="250"/></clipPath>
+<filter id="sh"><feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000" flood-opacity="0.6"/></filter></defs>
+<g filter="url(#sh)" opacity="0.92">
+<circle cx="400" cy="400" r="370" fill="#0a1733" fill-opacity="0.55"/>
+<circle cx="400" cy="400" r="350" fill="none" stroke="#e2bd62" stroke-width="30"/>
+<line x1="400" y1="95" x2="400" y2="45" stroke="#f0d48c" stroke-width="30" stroke-linecap="round"/>
+<line x1="705" y1="400" x2="755" y2="400" stroke="#f0d48c" stroke-width="30" stroke-linecap="round"/>
+<line x1="400" y1="705" x2="400" y2="755" stroke="#f0d48c" stroke-width="30" stroke-linecap="round"/>
+<line x1="95" y1="400" x2="45" y2="400" stroke="#f0d48c" stroke-width="30" stroke-linecap="round"/>
+<g clip-path="url(#gc)"><ellipse cx="400" cy="400" rx="120" ry="250" fill="none" stroke="#e2bd62" stroke-width="20"/>
+<line x1="150" y1="400" x2="650" y2="400" stroke="#e2bd62" stroke-width="22"/></g>
+<circle cx="400" cy="400" r="250" fill="none" stroke="#f0d48c" stroke-width="30"/>
+<line x1="400" y1="400" x2="275" y2="312" stroke="#f6eed8" stroke-width="40" stroke-linecap="round"/>
+<line x1="400" y1="400" x2="590" y2="290" stroke="#f6eed8" stroke-width="28" stroke-linecap="round"/>
+<circle cx="400" cy="400" r="40" fill="#c2412b" stroke="#f0d48c" stroke-width="12"/>
+</g></svg>

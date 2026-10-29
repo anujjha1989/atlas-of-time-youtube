@@ -15,8 +15,9 @@ with free tools and openly licensed assets.
 ## Use it with Claude
 
 The skill lives in [`skill/history-documentary/`](skill/history-documentary/SKILL.md): a step-by-step workflow
-plus ten reference chapters (research, narration, visuals, 3D battles, licensing, rendering, subtitles,
-thumbnails, YouTube SEO and upload, troubleshooting).
+plus eleven reference chapters (research, narration, visuals, 3D battles, licensing, rendering, subtitles,
+thumbnails, YouTube SEO, troubleshooting, and a field-by-field guide to setting up the channel and uploading
+through the browser).
 
 - **Claude Code**: copy the folder to `~/.claude/skills/history-documentary/` (or `.claude/skills/` in a project),
   then ask: *"Make a YouTube documentary about the Battle of Plassey using the history-documentary skill."*
@@ -46,12 +47,18 @@ python3 tools/mix.py --timeline src/timeline.json --voice ../out/narration_raw.w
     --plan music_plan.json --out ../out/docmix.wav
 python3 tools/mksrt.py --timeline template/src/timeline.json --timings rec/timings.json --out subtitles-en.srt --chapters chapters.txt
 npx remotion still Thumb out/thumb0.jpg --props='{"v":0}' --gl=angle
+
+# 5. Channel branding: profile picture, banner (safe-area guide) and transparent watermark
+python3 tools/branding/banner.py --name "Atlas of Time" --tagline "BATTLES · EMPIRES · TURNING POINTS"
+python3 tools/branding/render.py   # -> build/branding/*.png|jpg
+
+# 6. Channel setup and upload: follow skill/history-documentary/references/11-channel-setup-and-browser-upload.md
 ```
 
 ## Repository layout
 
 ```
-skill/history-documentary/      the Claude skill: SKILL.md + references/01..10
+skill/history-documentary/      the Claude skill: SKILL.md + references/01..11
 template/                       Remotion 4 project (React 19, three.js, @react-three/fiber)
   src/Video.tsx                 shots from timeline.json, crossfades, album-page frame
   src/scenes/Visuals.tsx        beat → visual switch, incl. battleShot() camera and state per beat
@@ -61,6 +68,7 @@ template/                       Remotion 4 project (React 19, three.js, @react-t
   src/scenes/Thumb.tsx          thumbnail compositions
 tools/                          narrate.py, build_narration.py, mix.py, mksrt.py, fetch_polyhaven.py,
                                 prepare_models.sh, mkterrain.py
+tools/branding/                 profile.svg, watermark.svg, banner.py, render.py (channel art)
 examples/panipat-1526/          script.json, lexicon.json (52 IPA names), hi.json (Hindi translation),
                                 music_plan.json, pictures.json, description.txt, upload-guide.md
 ```

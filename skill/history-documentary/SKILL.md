@@ -28,6 +28,7 @@ mistakes already made once:
 | 8. Thumbnails | `references/08-thumbnails.md` |
 | 9. YouTube SEO, channel and upload | `references/09-youtube-seo-and-upload.md` |
 | 10. Troubleshooting | `references/10-troubleshooting.md` |
+| 11. Channel setup and browser upload (field by field) | `references/11-channel-setup-and-browser-upload.md` |
 
 ## Principles (these decide most judgement calls)
 
@@ -47,8 +48,10 @@ mistakes already made once:
 6. **Licences are part of the job.** Only CC0, CC BY or public-domain material on a channel that may be
    monetised; no NonCommercial or NoDerivs licences. Credit every CC BY item in the description.
 7. **The person stays in control of their accounts.** Never create Google/YouTube/Sketchfab accounts or type
-   passwords. The person creates the channel and downloads account-gated models; you can drive the upload in
-   their signed-in browser, uploading as **Private** first so they review before publishing.
+   passwords. The person creates the channel, verifies it (phone **and** the one-time feature verification)
+   and downloads account-gated models. You drive the upload in their signed-in browser, but **they pick each
+   local file** in the macOS file picker (the browser can't attach files). Upload as **Private** first; going
+   public, posting a comment as the channel and changing the handle each need an explicit go-ahead.
 
 ## The pipeline at a glance
 
@@ -91,8 +94,17 @@ Track these as tasks; each has a definition of done.
     at them at 25% size.
 12. **Package.** Title, description (hook in first two lines, chapters, sources, credits, AI note), tags,
     pinned comment, upload settings. Done when `upload-guide.md` is filled in.
-13. **Upload.** The person has created the channel and verified their phone; you upload as Private with all
-    metadata, captions and thumbnails, add it to the playlist, and hand back for review.
+13. **Channel.** Profile picture, banner (generic to the channel, not one film), watermark (Entire video),
+    description, keywords, country and handle are set (`tools/branding/`, reference 11). Done when Customisation
+    shows nothing pending to Publish.
+14. **Upload.** The person has created and verified the channel. Start the MP4 upload first and fill every
+    field while it uploads (reference 11.5): title and description set with `insertText` and checked for intact
+    chapters, playlist, not for kids, tags committed as chips, AI use Yes, language, Education, thumbnail, EN
+    subtitles, end screen, Private. Add the second-language subtitles on the translations page. Done when
+    Channel content shows the video Private with its thumbnail, and the person has the link to review.
+15. **Publish** (on the person's go): Public or scheduled; pinned comment posted as the channel, not the
+    person's personal identity. Done when the edit page shows Public and the comment is up (pinned once the
+    channel is feature-verified).
 
 ## Time and cost expectations (M2 Pro Mac, 12 cores)
 

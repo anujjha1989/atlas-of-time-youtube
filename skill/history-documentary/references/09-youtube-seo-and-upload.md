@@ -37,8 +37,9 @@ history documentary, battle documentary, panipat war, babur vs ibrahim lodi`.
 ## 9.4 Settings
 
 - Category **Education**; video language and title language **English**.
-- **Altered or synthetic content: Yes**. AI narration plus a realistic reconstruction of a real event is
-  exactly what YouTube asks creators to disclose. It does not reduce reach.
+- **AI use: Yes** (Studio now calls the section "AI use"; it used to be "Altered or synthetic content").
+  AI narration plus a realistic reconstruction of a real event is exactly what YouTube asks creators to
+  disclose. It adds a small "AI" label and does not reduce reach.
 - Audience: **No, it's not made for kids**.
 - Captions: upload EN and the translated SRT files; add translated titles and descriptions.
 - End screen (last 5–20 s; the film has an 8 s end card): Subscribe plus one "Best for viewer" video.
@@ -47,37 +48,20 @@ history documentary, battle documentary, panipat war, babur vs ibrahim lodi`.
   Friday–Sunday 6–8 pm IST works well.
 - Pinned comment that invites an opinion, e.g. "Which mattered more at Panipat, the guns or the tulughma?"
 
-## 9.5 Creating the channel (the person does this)
+## 9.5 Channel setup and upload: see reference 11
 
-You must not create accounts. Give the person these steps:
+The step-by-step for creating and verifying the channel, branding (profile picture, banner, watermark),
+description, keywords and handle, and for driving the whole upload in the person's signed-in browser
+(field-by-field selectors, file-picker hand-offs, subtitles in a second language, end screen, going public,
+pinned comment) is in **`11-channel-setup-and-browser-upload.md`**. The essentials:
 
-1. youtube.com → sign in with the Google account that should own the channel.
-2. Profile picture → **Settings** → **Add or manage your channel(s)** → **Create a channel**. This makes a
-   *Brand Account* channel with its own name (e.g. "Atlas of Time") instead of the person's name, and it can
-   have managers later. (Simple alternative: profile picture → **Create a channel** → "Use a custom name".)
-3. Enter the channel name, accept the terms, create; confirm the phone code if asked.
-4. **youtube.com/verify** with the new channel selected (profile picture → Switch account): verify a phone
-   number. This unlocks custom thumbnails and uploads longer than 15 minutes.
-5. Optional: Studio → Customisation → profile picture (an emblem from the visual style), banner (2560×1440,
-   safe area 1546×423), a one-paragraph channel description with keywords, and links.
+- The person creates the channel, verifies their phone (youtube.com/verify) **and** completes the one-time
+  feature verification (needed for pinned comments and clickable links). They also pick every local file in
+  the macOS file picker; the built-in browser can't attach files.
+- Upload as **Private**, fill everything in, hand back. Make it public, post a comment or change the handle
+  only on an explicit go-ahead.
 
-## 9.6 Uploading through the browser (with the person's permission)
-
-Prerequisites: the person is signed in to YouTube in the browser you control, with the right channel
-selected; never type their password. In YouTube Studio:
-
-1. **Create → Upload videos** → choose the final MP4. While it uploads, fill in the Details:
-   title, description (paste), the three thumbnails (Test & Compare) or one, playlist (**create "Battles"** if
-   missing), audience "No, not made for kids".
-2. **Show more**: altered content **Yes**, tags, language, category Education, recording date (optional),
-   licence Standard, comments on.
-3. **Video elements**: subtitles (upload EN SRT, then the other languages), end screen.
-4. **Checks**: wait for copyright/ad-suitability checks. CC BY music and models may trigger Content ID
-   claims if a third party registered them. Kevin MacLeod tracks are not Content ID registered, but note any claim.
-5. **Visibility: Private**. Save. Send the person the Studio link to review. Publishing or scheduling is
-   their decision; do it only on an explicit go-ahead.
-
-## 9.7 After publishing (reach)
+## 9.6 After publishing (reach)
 
 - **Shorts**: 2–3 vertical clips (1080×1920, under 60 s) of the strongest moments, with burned-in captions,
   each linking the full video (Shorts → "Related video"). Shorts are the main discovery engine for new channels.
